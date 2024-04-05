@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <!-- for icons  -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- for swiper slider  -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!-- fancy box  -->
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body-fixed">
+    <!-- start of header  -->
+    <header class="site-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="header-logo">
+                        <a href="index.html">
+                            <h2 style="text-decoration: none; font-size: 30px; font-weight:bolder;">MOMO BITES</h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="main-navigation">
+                        <button class="menu-toggle"><span></span><span></span></button>
+                        <nav class="header-menu">
+                            <ul class="menu food-nav-menu">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#menu">Menu</a></li>                            
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header-right">
+                            <form action="#" class="header-search-form for-des">
+                                <input type="search" class="form-input" placeholder="Search Here...">
+                                <button type="submit">
+                                    <i class="uil uil-search"></i>
+                                </button>
+                            </form>
+                            <!-- <a href="javascript:void(0)" class="header-btn header-cart">
+                                <i class="uil uil-shopping-bag"></i>
+                                <span class="cart-number">3</span>
+                            </a>
+                            <a href="javascript:void(0)" class="header-btn">
+                                <i class="uil uil-user-md"></i>
+                            </a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header ends  -->
+
+    <div id="viewport">
+        <div id="js-scroll-content">
+            <section class="main-banner" id="home">
+                <div class="js-parallax-scene">
+                    <div class="banner-shape-1 w-100" data-depth="0.30">
+                        <img src="/images/download__1_-removebg-preview.png" alt="">
+                    </div>
+                    <div class="banner-shape-2 w-100" data-depth="0.25">
+                        <img src="/images/download__1_-removebg-preview.png" alt="">
+                    </div>
+                </div>
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="banner-text">
+                                    <h1 class="h1-title">
+                                        Welcome to
+                                        <br>
+                                        <span>MOMO BITES</span>
+                                        restaurant.
+                                    </h1>
+                                    <p>WE HAVE MOMOS HOTTER THEN YOUR EX
+                                        
+                                    </p>
+                                    <div class="banner-btn mt-4">
+                                        <a href="#menu" class="sec-btn">Check our Menu</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="banner-img-wp">
+                                    <div class="banner-img" style="background-image: url(/images/logo1.png);">
+                                    </div>
+                                </div>
+                                <div class="banner-img-text mt-4 m-auto">
+                                    <h5 class="h5-title">MOMOS</h5>
+                                    <p>Love at first bite.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            
+
+            <section class="about-sec section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="sec-title text-center mb-5">
+                                <p class="sec-sub-title mb-3">Our Outlets</p>
+                                <a href="https://maps.app.goo.gl/1PKa4vXpsHRvG5rw7" target="_blank"><h2 class="h2-title">MOMO BITES <span>Dwarka Sector 23 New Delhi</span></h2></a>
+                                <div class="sec-title-shape mb-4">
+                                    <img src="../images/2024-03-31-Photoroom.jpg" alt="">
+                                </div>
+                                <p>Momo Bites in Sector 23, Dwarka, New Delhi, brings an Indian twist to the beloved momo. Offering a variety of steamed and fried momos infused with flavorful Indian spices, this eatery is a treat for your taste buds. With an average cost of ₹150 for two, it's an affordable yet delightful dining experience. Whether you're dining in or opting for delivery, Momo Bites ensures a satisfying meal with its convenient digital payment options and cozy indoor seating. Don't miss out on this fusion of flavors that's sure to leave you craving more!</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section style="background-image: url(assets/images/menu-bg.png);"
+                class="our-menu section bg-light repeat-img" id="menu">
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sec-title text-center mb-5">
+                                    <p class="sec-sub-title mb-3">our menu</p>
+                                    <h2 class="h2-title">Come up early, <span>eat Repeat & Eat</span></h2>
+                                    <div>
+                                        <img src="images/menu.jpg" alt="" style="max-width: 600px; max-height: 600px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-tab-wp">
+                            <div class="row">
+                                <div class="col-lg-12 m-auto">
+                                    <div class="menu-tab text-center">
+                                        <ul class="filters">
+                                            <div class="filter-active"></div>
+                                            <li class="filter" data-filter=".all, .breakfast, .lunch, .dinner">
+                                               
+                                                All
+                                            </li>
+                                            <li class="filter" data-filter=".breakfast">
+                                              
+                                                Momos
+                                            </li>
+                                            <li class="filter" data-filter=".lunch">
+                                              
+                                                Pizza
+                                            </li>
+                                            <li class="filter" data-filter=".dinner">
+                                               
+                                                Sandwich
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-list-row">
+                            <div class="row g-xxl-5 bydefault_show" id="menu-dish">
+                                <div class="col-lg-4 col-sm-6 dish-box-wp breakfast" data-cat="breakfast">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="https://b.zmtcdn.com/data/dish_photos/e59/1ed03ca451a84a6e02712896550ebe59.png?fit=around|130:130&crop=130:130;*,*" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            5
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Steam Momos</h3>
+                                            <p> Best In The Box</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Type</p>
+                                                    <b>Veg , Panner, Chicken</b>
+                                                </li>
+                                                <li>
+                                                    <p>Persons</p>
+                                                    <b>2</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>Rs. 90</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <!-- <i class="uil uil-plus"></i> -->
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 2 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp breakfast" data-cat="breakfast">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="https://b.zmtcdn.com/data/dish_photos/780/3b0e6422a1c644582d6013ae8252b780.jpeg?fit=around|130:130&crop=130:130;*,*" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            4.3
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Malai Momos</h3>
+                                            <p>Best In Greavy</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Type</p>
+                                                    <b>Veg , Panner, Chicken</b>
+                                                </li>
+                                                <li>
+                                                    <p>Persons</p>
+                                                    <b>2</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>Rs. 139</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <!-- <i class="uil uil-plus"></i> -->
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 3 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp lunch" data-cat="lunch">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="https://b.zmtcdn.com/data/dish_photos/cf9/4ee50f13c1ae56de3c3d486b18332cf9.png?fit=around|130:130&crop=130:130;*,*" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            4
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Tandoori Panner Pizza</h3>
+                                            <p>100 calories</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Type</p>
+                                                    <b>Veg</b>
+                                                </li>
+                                                <li>
+                                                    <p>Persons</p>
+                                                    <b>2</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>Rs. 149</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <!-- <i class="uil uil-plus"></i> -->
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 4 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp lunch" data-cat="lunch">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="https://b.zmtcdn.com/data/dish_photos/0b5/5e91ea3d132917a095f0db81eabde0b5.png?fit=around|130:130&crop=130:130;*,*" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            4.5
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Chicken Pizza</h3>
+                                            <p>120 calories</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Type</p>
+                                                    <b>Non Veg</b>
+                                                </li>
+                                                <li>
+                                                    <p>Persons</p>
+                                                    <b>2</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>Rs. 149</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <!-- <i class="uil uil-plus"></i> -->
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- 5 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp dinner" data-cat="dinner">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="https://b.zmtcdn.com/data/dish_photos/1a1/4dd47fa9c0f3250687dedc836f0851a1.png?fit=around|130:130&crop=130:130;*,*" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            5
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Veg Sandwich</h3>
+                                            <p>120 calories</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Type</p>
+                                                    <b> Veg</b>
+                                                </li>
+                                                <li>
+                                                    <p>Persons</p>
+                                                    <b>2</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>Rs. 89</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <!-- <i class="uil uil-plus"></i> -->
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 6 -->
+                                <div class="col-lg-4 col-sm-6 dish-box-wp dinner" data-cat="dinner">
+                                    <div class="dish-box text-center">
+                                        <div class="dist-img">
+                                            <img src="https://b.zmtcdn.com/data/dish_photos/1a1/4dd47fa9c0f3250687dedc836f0851a1.png?fit=around|130:130&crop=130:130;*,*" alt="">
+                                        </div>
+                                        <div class="dish-rating">
+                                            5
+                                            <i class="uil uil-star"></i>
+                                        </div>
+                                        <div class="dish-title">
+                                            <h3 class="h3-title">Chicken Sandwich</h3>
+                                            <p>120 calories</p>
+                                        </div>
+                                        <div class="dish-info">
+                                            <ul>
+                                                <li>
+                                                    <p>Type</p>
+                                                    <b>Non Veg</b>
+                                                </li>
+                                                <li>
+                                                    <p>Persons</p>
+                                                    <b>2</b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="dist-bottom-row">
+                                            <ul>
+                                                <li>
+                                                    <b>Rs. 119</b>
+                                                </li>
+                                                <li>
+                                                    <button class="dish-add-btn">
+                                                        <!-- <i class="uil uil-plus"></i> -->
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="two-col-sec section">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5">
+                            <div class="sec-img mt-5">
+                                <img src="/images/vegmomos.jpg" alt="" style="border-radius: 5%;">
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="sec-text">
+                                <h2 class="xxl-title">Veg Momos :</h2>
+                                <p>
+
+                                    These momos typically include a filling of finely chopped mixed vegetables such as cabbage, carrots, bell peppers, onions, and sometimes mushrooms. The filling is seasoned with spices like garlic, ginger, soy sauce, and often a hint of green chili for a bit of heat.
+                                    Preparation: The vegetable filling is sautéed lightly with the spices and sauces until cooked yet still slightly crunchy. This mixture is then used to fill small rounds of dough made from all-purpose flour or a mixture of wheat and refined flour.
+                                    Cooking Method: The momos are then shaped into small dumplings, usually pleated at the top to seal in the filling, and steamed until the dough becomes translucent and cooked. They are typically served hot with a spicy tomato-based dipping sauce or a tangy, slightly sweet momo sauce.</p>
+                                    voluptas magnam sed ad illum? Minus officiis quod deserunt.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="two-col-sec section">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-5">
+                            <div class="sec-img mt-5">
+                                <img src="/images/panner.jpg" alt=""style="border-radius: 5%;" >
+                            </div>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="sec-text">
+                                <h2 class="xxl-title">Paneer Momos :</h2>
+                                <p>
+
+                                    Ingredients: Paneer momos are made with a filling of crumbled or finely chopped paneer, along with onions, garlic, ginger, and sometimes green peas or spinach for added flavor and texture. Spices like cumin, coriander, garam masala, and a touch of chili powder are used to season the filling.
+                                    Preparation: The paneer and vegetable mixture is cooked together until the flavors meld and the paneer is slightly browned. This filling is then used to stuff the momo dough.
+                                    Cooking Method: The paneer momos are shaped and steamed just like vegetable momos. They are often served with a mint-coriander chutney or a yogurt-based dipping sauce, which complements the mild yet flavorful paneer filling.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="two-col-sec section pt-0">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 order-lg-1 order-2">
+                            <div class="sec-text">
+                                <h2 class="xxl-title">Chicken Momos :</h2>
+                                <p>Ingredients: Chicken momos feature a filling made from minced or finely chopped chicken mixed with onions, garlic, ginger, and sometimes spring onions or cilantro for freshness. Spices like cumin, coriander, turmeric, and a bit of chili powder or chopped green chilies are used to season the chicken filling.
+                                    Preparation: The chicken mixture is cooked until the meat is tender and fully cooked, absorbing the flavors of the spices and aromatics.
+                                    Cooking Method: Similar to vegetable and paneer momos, the chicken filling is then used to stuff the momo dough, which is steamed until the dough is cooked and the filling is juicy and flavorful. Chicken momos are often served with a spicy chili sauce or a tangy sesame-based dipping sauce.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 order-lg-2 order-1">
+                            <div class="sec-img">
+                                <img src="/images/chickenmomos.jpg" alt="" style="border-radius: 5%; margin-left: 1rem;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="book-table section bg-light">
+                <div class="book-table-shape">
+                    <img src="assets/images/table-leaves-shape.png" alt="">
+                </div>
+
+                <div class="book-table-shape book-table-shape2">
+                    <img src="assets/images/table-leaves-shape.png" alt="">
+                </div>
+
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sec-title text-center mb-5">
+                                    <p class="sec-sub-title mb-3">Book Your Order</p>
+                                    <h2 class="h2-title">Opening Time</h2>
+                                    <div class="sec-title-shape mb-4">
+                                        <img src="assets/images/title-shape.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="book-table-info">
+                            <div class="row align-items-center">
+                                <div class="col-lg-4">
+                                    <div class="table-title text-center">
+                                        <h3>Monday to Thrusday</h3>
+                                        <p>6:00 Pm - 11:00 pm</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="call-now text-center">
+                                        <i class="uil uil-phone"></i>
+                                        <a href="tel:+91-8866998866">+91 - 9911901131</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="table-title text-center">
+                                        <h3>Friday to Sunday</h3>
+                                        <p>05:00 pm to 11:00 pm</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                      
+
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="our-team section">
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sec-title text-center mb-5">
+                                    <p class="sec-sub-title mb-3">Our Team</p>
+                                    <h2 class="h2-title">Meet our Chefs</h2>
+                                    <div class="sec-title-shape mb-4">
+                                        <img src="assets/images/title-shape.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row team-slider">
+                            <div class="swiper-wrapper">
+                               
+                                <div class="col-lg-4 swiper-slide">
+                                    <div class="team-box text-center">
+                                        <div style="background-image: url(/images/aadi.jpeg);"
+                                            class="team-img back-img">
+
+                                        </div>
+                                        <h3 class="h3-title">Aadi </h3>
+                                        <div class="social-icon">
+                                            <ul>
+                                                <li>
+                                                    <a href="https://www.instagram.com/momo.bites_?igshid=OGQ5ZDc2ODk2ZA%3D%3D"><i class="uil uil-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.instagram.com/momo.bites_?igshid=OGQ5ZDc2ODk2ZA%3D%3D">
+                                                        <i class="uil uil-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.instagram.com/momo.bites_?igshid=OGQ5ZDc2ODk2ZA%3D%3D">
+                                                        <i class="uil uil-youtube"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                              
+                            </div>
+                           
+                    </div>
+                </div>
+            </section>
+
+            <section class="testimonials section bg-light">
+                <div class="sec-wp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="sec-title text-center mb-5">
+                                    <p class="sec-sub-title mb-3">What they say</p>
+                                    <h2 class="h2-title">What our customers <span>say about us</span></h2>
+                                    <div class="sec-title-shape mb-4">
+                                        <img src="assets/images/title-shape.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="testimonials-img">
+                                    <img src="/images/png.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="testimonials-box">
+                                            <div class="testimonial-box-top">
+                                                <div class="testimonials-box-img back-img"
+                                                style="background-image: url(images/ritika.jpg); "   >
+                                                </div>
+                                                <div class="star-rating-wp">
+                                                    <div class="star-rating">
+                                                        <span class="star-rating__fill" style="width:85%"></span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                           <a href="https://g.co/kgs/txyixBi" target="_blank"> <div class="testimonials-box-text">
+                                                <h3 class="h3-title">
+                                                    Ritika
+                                                </h3>
+                                                <p>Really tasty momos loved everything but my favourite was tandoori malai momo 🤩🤩🤩 must try momos 🤩🤩.</p>
+                                            </div></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="testimonials-box">
+                                            <div class="testimonial-box-top">
+                                                <div class="testimonials-box-img back-img"
+                                                    style="background-image: url(images/pwn.jpg);">
+                                                </div>
+                                                <div class="star-rating-wp">
+                                                    <div class="star-rating">
+                                                        <span class="star-rating__fill" style="width:80%"></span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <a href="https://g.co/kgs/P7tycG2" target="_blank"><div class="testimonials-box-text">
+                                                <h3 class="h3-title">
+                                                   Pawan Kumar
+                                                </h3>
+                                                <p>Sooo tasty soooo yummy just wanna try again everyday ❤️.</p>
+                                            </div></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="testimonials-box">
+                                            <div class="testimonial-box-top">
+                                                <div class="testimonials-box-img back-img"
+                                                    style="background-image: url(/images/ritesh.jpg);">
+                                                </div>
+                                                <div class="star-rating-wp">
+                                                    <div class="star-rating">
+                                                        <span class="star-rating__fill" style="width:89%"></span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                           <a href="https://g.co/kgs/tb3P5pp" target="_blank"> <div class="testimonials-box-text">
+                                                <h3 class="h3-title">
+                                                    Ritesh Kappor
+                                                </h3>
+                                                <p>agar momos ke shauk hai to MOMO BITES check karna must hai, especially unke tandoori momos! Bahut solid flavor hai, bichara momo crisp aur juicy dono ek saath. Aur bhai, woh mint chutney, ek dum fatak! Seriously, agar mazza chahiye toh yahaan aake tandoori momos try karna banta hai. MOMO BITES ka scene hai alag level ka.</p>
+                                            </div></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="testimonials-box">
+                                            <div class="testimonial-box-top">
+                                                <div class="testimonials-box-img back-img"
+                                                    style="background-image: url(images/aseem.jpg);">
+                                                </div>
+                                                <div class="star-rating-wp">
+                                                    <div class="star-rating">
+                                                        <span class="star-rating__fill" style="width:100%"></span>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                           <a href="" target="_blank"> <div class="testimonials-box-text">
+                                                <h3 class="h3-title">
+                                                    Aseem Kumar
+                                                </h3>
+                                                <p>Tasty and best momos...must try when you thinking about momos with lovable service.</p>
+                                            </div></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <br>
+            <br>
+
+            <!-- footer starts  -->
+            <footer class="site-footer" id="contact">
+                <div class="top-footer section">
+                    <div class="sec-wp">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="footer-info">
+                                        <div class="footer-logo">
+                                            <a href="index.html">
+                                                <img src="logo.png" alt="">
+                                            </a>
+                                        </div>
+                                        <p>We Have Momos Hotter Then Your Ex.
+                                            <br>
+                                          <a href="#"><span style="color: red;">Only In MOMOBITES </span></a>  
+                                        </p>
+                                        <div class="social-icon">
+                                            <ul>
+                                                <li>
+                                                    <a href="https://www.instagram.com/momo.bites_/">
+                                                        <i class="uil uil-facebook-f"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.instagram.com/momo.bites_/">
+                                                        <i class="uil uil-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-github-alt"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <i class="uil uil-youtube"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="footer-flex-box">
+                                        <div class="footer-table-info">
+                                            <h3 class="h3-title">open hours</h3>
+                                            <ul>
+                                                <li><i class="uil uil-clock"></i> Mon-Thurs : 6am - 11pm</li>
+                                                <li><i class="uil uil-clock"></i> Fri-Sun : 5pm - 11pm</li>
+                                                
+
+                                            </ul>
+                                        </div>
+                                        <div class="footer-menu food-nav-menu">
+                                            <h3 class="h3-title">Links</h3>
+                                            <ul class="column-2"  style="text-decoration: none;">
+                                                <li>
+                                                    <a href="#home" class="footer-active-menu">Home</a>
+                                                </li>
+                                                <li><a href="#about">About</a></li>
+                                                <li><a href="#menu">Menu</a></li>
+                                               
+                                                <li><a href="https://api.whatsapp.com/send/?phone=919911901131&text&type=phone_number&app_absent=0" target="_blank">Franchise & Rights</a></li>
+                                                <li ><a href="#contact"  >Contact</a></li>
+                                                <li><a href="https://api.whatsapp.com/send/?phone=919911901131&text&type=phone_number&app_absent=0">+91 99119 01131</a></li>
+                                             
+
+                                              
+                                            </ul>
+                                        </div>
+                                        <div class="footer-menu">
+                                           <img src="/images/logo1.png" alt="" >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-12 text-center">
+                                <div class="copyright-text">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="scrolltop"><i class="uil uil-angle-up"></i></button>
+                    </div>
+                </div>
+            </footer>
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <!-- jquery  -->
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <!-- bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+
+    <!-- fontawesome  -->
+    <script src="assets/js/font-awesome.min.js"></script>
+
+    <!-- swiper slider  -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-- mixitup -- filter  -->
+    <script src="assets/js/jquery.mixitup.min.js"></script>
+
+    <!-- fancy box  -->
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+
+    <!-- parallax  -->
+    <script src="assets/js/parallax.min.js"></script>
+
+    <!-- gsap  -->
+    <script src="assets/js/gsap.min.js"></script>
+
+    <!-- scroll trigger  -->
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <!-- scroll to plugin  -->
+    <script src="assets/js/ScrollToPlugin.min.js"></script>
+    <!-- rellax  -->
+    <!-- <script src="assets/js/rellax.min.js"></script> -->
+    <!-- <script src="assets/js/rellax-custom.js"></script> -->
+    <!-- smooth scroll  -->
+    <script src="assets/js/smooth-scroll.js"></script>
+    <!-- custom js  -->
+    <script src="main.js"></script>
+
+</body>
+
+</html>
